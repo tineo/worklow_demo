@@ -46,3 +46,5 @@ jobs:
       run: mix deps.get
     - name: Run tests
       run: mix test
+      env:
+        DB_HOST: postgres
